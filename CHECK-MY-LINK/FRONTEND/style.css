@@ -2711,11 +2711,28 @@ button, a, input, select, .sample-chip, .dock-btn {
    =================================================================== */
 
 .developer-profile-card {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 40px;
-  padding: 44px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 18px;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 48px 36px;
+}
+
+.dev-profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.profile-t-badge {
+  width: 38px;
+  height: 38px;
 }
 
 .dev-portrait-container {
@@ -3076,10 +3093,8 @@ button, a, input, select, .sample-chip, .dock-btn {
 
   /* Developer Profile Card */
   .developer-profile-card {
-    grid-template-columns: 1fr;
-    text-align: center;
     padding: 36px 24px;
-    gap: 28px;
+    gap: 16px;
   }
 
   .dev-portrait-container {
