@@ -1,4 +1,4 @@
-﻿/* ===================================================================
+/* ===================================================================
    CHECK MY LINK - Professional Cybersecurity Stylesheet
    Developer: Krishan Kumar Verma | Enrollment: 20240882
    Theme: Dark Navy (#080F1F) | Primary Blue (#2563EB) | Accent Orange (#FF6B00)
@@ -179,6 +179,41 @@ button, a, input, select, .sample-chip, .dock-btn {
   gap: 12px;
   text-decoration: none;
   color: var(--color-white);
+}
+
+.brand-logo-badge {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+  filter: drop-shadow(0 4px 14px var(--primary-blue-glow));
+}
+
+.brand-logo-badge:hover {
+  transform: rotate(4deg) scale(1.06);
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  display: inline-block;
 }
 
 .shield-badge {
@@ -3294,6 +3329,11 @@ button, a, input, select, .sample-chip, .dock-btn {
 
   .brand-tag {
     font-size: 0.62rem;
+  }
+
+  .brand-logo-badge {
+    width: 36px;
+    height: 36px;
   }
 
   .shield-badge {
