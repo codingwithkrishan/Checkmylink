@@ -1,6 +1,6 @@
 /* ===================================================================
    CHECK MY LINK - Professional Cybersecurity Stylesheet
-   Developer: Krishan Kumar Verma | Enrollment: 20240882
+   Theme: Dark Navy (#080F1F) | Primary Blue (#2563EB) | Accent Orange (#FF6B00)
    Theme: Dark Navy (#080F1F) | Primary Blue (#2563EB) | Accent Orange (#FF6B00)
    Accents: Danger Red (#EF4444) | Safe Green (#10B981)
    =================================================================== */
@@ -1400,7 +1400,7 @@ button, a, input, select, .sample-chip, .dock-btn {
   max-width: 320px;
 }
 
-/* Slide 6 (Final Transition Slide) */
+/* Slide 6 (Restored Original Final Transition Slide) */
 .final-slide-inner {
   max-width: 800px;
   margin: auto;
@@ -1454,6 +1454,8 @@ button, a, input, select, .sample-chip, .dock-btn {
   font-weight: 500;
 }
 
+
+
 .slide-footer-bar {
   display: flex;
   align-items: center;
@@ -1496,6 +1498,27 @@ button, a, input, select, .sample-chip, .dock-btn {
   inset: 0;
   background: radial-gradient(circle at center, rgba(37, 99, 235, 0.25) 0%, transparent 65%), var(--bg-dark-navy);
   transition: opacity 0.5s ease;
+}
+
+/* Portal Transition Uploaded Image Showcase */
+.portal-image-showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 660px;
+  width: 88vw;
+  margin: 0 auto;
+  pointer-events: none;
+}
+
+.portal-showcase-img {
+  width: 100%;
+  height: auto;
+  max-height: 62vh;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  display: block;
+  filter: drop-shadow(0 20px 50px rgba(0, 0, 0, 0.75)) drop-shadow(0 0 35px rgba(37, 99, 235, 0.35));
 }
 
 .portal-text-layer {
@@ -3091,6 +3114,17 @@ button, a, input, select, .sample-chip, .dock-btn {
     padding: 28px 24px;
   }
 
+    /* Slide 6 Responsive */
+  .slide7-showcase-card,
+  .slide6-showcase-card {
+    max-width: 520px;
+    padding: 18px;
+  }
+  .slide7-showcase-img,
+  .slide6-showcase-img {
+    max-height: 40vh;
+  }
+
   /* Developer Profile Card */
   .developer-profile-card {
     padding: 36px 24px;
@@ -3501,6 +3535,8 @@ button, a, input, select, .sample-chip, .dock-btn {
     width: 100%;
   }
 
+  .portal-showcase-img { max-height: 48vh; }
+
   /* Centered Result Metadata & Actions */
   .result-meta-grid {
     grid-template-columns: 1fr;
@@ -3543,6 +3579,17 @@ button, a, input, select, .sample-chip, .dock-btn {
 
   .stat-title {
     font-size: 0.68rem;
+  }
+
+    /* Slide 6 Responsive */
+  .slide7-showcase-card,
+  .slide6-showcase-card {
+    max-width: 520px;
+    padding: 18px;
+  }
+  .slide7-showcase-img,
+  .slide6-showcase-img {
+    max-height: 40vh;
   }
 
   /* Developer Profile Card */

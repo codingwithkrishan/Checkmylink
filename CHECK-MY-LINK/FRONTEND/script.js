@@ -1,7 +1,6 @@
-﻿/**
+/**
  * ===================================================================
  * CHECK MY LINK - Frontend Application Script
- * Developer: Krishan Kumar Verma | Enrollment: 20240882
  * 
  * Features:
  * - GSAP ScrollTrigger FlowArt Animated Story Presentation (6 Slides)
@@ -316,7 +315,7 @@ function initStoryNavigation() {
     });
   }
 
-  // Button: Skip the Read (Jumps directly to Slide 6)
+  // Button: Skip the Read (Jumps directly to Slide 7 / final showcase)
   const btnSkipRead = document.getElementById('btn-skip-read');
   if (btnSkipRead) {
     btnSkipRead.addEventListener('click', () => {
@@ -325,18 +324,18 @@ function initStoryNavigation() {
     });
   }
 
-  // Button: Read Again (Scrolls back to Slide 1)
-  const btnReadAgain = document.getElementById('btn-read-again');
-  if (btnReadAgain) {
-    btnReadAgain.addEventListener('click', () => {
+  // Button: Read Again (Supports all buttons on Slide 6 & 7)
+  const readAgainBtns = document.querySelectorAll('#btn-read-again, #btn-read-again-s6, .btn-read-again-action');
+  readAgainBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
       document.getElementById('story-slide-1')?.scrollIntoView({ behavior: 'smooth' });
     });
-  }
+  });
 
-  // Button: Start Checking Links (Executes cinematic portal zoom into scanner)
-  const btnStartChecking = document.getElementById('btn-start-checking');
-  if (btnStartChecking) {
-    btnStartChecking.addEventListener('click', () => {
+  // Button: Start Checking Links (Executes cinematic portal zoom - supports Slide 6 & 7)
+  const startCheckBtns = document.querySelectorAll('#btn-start-checking, #btn-start-checking-s6, .btn-start-checking-action');
+  startCheckBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
       const portalEl = document.getElementById('portal-transition');
       const scannerEl = document.getElementById('scanner-section');
 
@@ -351,7 +350,7 @@ function initStoryNavigation() {
         document.getElementById('url-input')?.focus();
       }
     });
-  }
+  });
 
   // Floating Dock Click Handlers
   dockBtns.forEach((btn) => {
@@ -373,7 +372,7 @@ function initStoryNavigation() {
     'story-slide-4',
     'story-slide-5',
     'story-slide-6',
-    'scanner-section',
+        'scanner-section',
   ];
 
   const observer = new IntersectionObserver(
