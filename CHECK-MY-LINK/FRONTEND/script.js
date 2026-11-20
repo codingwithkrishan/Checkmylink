@@ -1180,109 +1180,107 @@ const safeLinks = [
 ];
 
 const maliciousLinks = [
-  "https://google-account-verify.example/login",
-  "https://gmail-security-alert.example/verify",
-  "https://facebook-login-check.example/account",
-  "https://instagram-verify-user.example/login",
-  "https://whatsapp-update-account.example/verify",
-  "https://microsoft-password-reset.example/login",
-  "https://apple-id-security.example/verify",
-  "https://amazon-refund-claim.example/refund",
-  "https://flipkart-prize-winner.example/claim",
-  "https://paypal-payment-check.example/login",
-  "https://netflix-account-warning.example/verify",
-  "https://youtube-premium-gift.example/claim",
-  "https://telegram-account-check.example/login",
-  "https://discord-nitro-gift.example/claim",
-  "https://linkedin-security-check.example/verify",
-  "https://bank-account-blocked.example/login",
-  "https://bank-kyc-update.example/verify",
-  "https://upi-refund-approved.example/claim",
-  "https://payment-failed-alert.example/verify",
-  "https://credit-card-limit-increase.example/apply",
-  "https://free-mobile-gift.example/claim",
-  "https://win-new-iphone.example/prize",
-  "https://lottery-winner-message.example/claim",
-  "https://shopping-cashback.example/reward",
-  "https://free-shopping-voucher.example/claim",
-  "https://urgent-account-update.example/verify",
-  "https://password-expired-alert.example/reset",
-  "https://security-warning-message.example/login",
-  "https://account-suspended-now.example/restore",
-  "https://verify-your-identity.example/confirm",
-  "https://fake-delivery-update.example/track",
-  "https://parcel-payment-required.example/pay",
-  "https://courier-address-check.example/update",
-  "https://free-recharge-offer.example/claim",
-  "https://mobile-sim-blocked.example/verify",
-  "https://sim-kyc-expired.example/update",
-  "https://electricity-bill-warning.example/pay",
-  "https://gas-bill-refund.example/claim",
-  "https://fast-loan-approval.example/apply",
-  "https://instant-scholarship-award.example/claim",
-  "https://student-result-check.example/login",
-  "https://exam-fee-refund.example/claim",
-  "https://job-selection-message.example/verify",
-  "https://work-from-home-prize.example/register",
-  "https://government-scheme-reward.example/claim",
-  "https://tax-refund-approved.example/verify",
-  "https://pan-card-update.example/confirm",
-  "https://aadhaar-update-alert.example/verify",
-  "https://passport-verification.example/login",
-  "https://railway-ticket-refund.example/claim",
-  "https://flight-ticket-cancelled.example/refund",
-  "https://hotel-booking-reward.example/claim",
-  "https://free-game-coins.example/redeem",
-  "https://gaming-account-warning.example/login",
-  "https://free-diamonds-reward.example/claim",
-  "https://game-account-banned.example/restore",
-  "https://crypto-free-reward.example/claim",
-  "https://investment-double-money.example/register",
-  "https://wallet-security-alert.example/verify",
-  "https://digital-payment-refund.example/claim",
-  "https://account-login-unusual.example/check",
-  "https://new-device-login-alert.example/verify",
-  "https://confirm-your-password.example/login",
-  "https://reset-password-immediately.example/reset",
-  "https://email-storage-full.example/upgrade",
-  "https://cloud-storage-warning.example/verify",
-  "https://document-share-alert.example/open",
-  "https://fake-invoice-payment.example/pay",
-  "https://urgent-payment-request.example/confirm",
-  "https://unknown-transaction-alert.example/check",
-  "https://atm-card-blocked.example/restore",
-  "https://debit-card-verification.example/verify",
-  "https://credit-card-reward.example/claim",
-  "https://bank-reward-points.example/redeem",
-  "https://upi-pin-update.example/confirm",
-  "https://mobile-banking-update.example/login",
-  "https://account-verification-required.example/verify",
-  "https://free-data-pack.example/claim",
-  "https://internet-speed-upgrade.example/activate",
-  "https://new-phone-giveaway.example/winner",
-  "https://festival-gift-offer.example/claim",
-  "https://birthday-reward.example/redeem",
-  "https://exclusive-discount.example/claim",
-  "https://limited-time-prize.example/win",
-  "https://urgent-document-check.example/upload",
-  "https://unknown-file-download.example/download",
-  "https://fake-support-team.example/contact",
-  "https://customer-care-refund.example/request",
-  "https://delivery-fee-pending.example/pay",
-  "https://online-order-cancelled.example/restore",
-  "https://subscription-expired.example/renew",
-  "https://free-premium-access.example/activate",
-  "https://social-media-blue-tick.example/claim",
-  "https://account-recovery-support.example/login",
-  "https://verify-mobile-number.example/confirm",
-  "https://security-check-required.example/continue",
-  "https://payment-confirmation.example/submit",
-  "https://final-warning-account.example/restore",
-  "https://bonus-cash-reward.example/claim",
-  "https://special-user-gift.example/redeem",
-  "https://unknown-login-verification.example/check",
-  "https://personal-data-update.example/submit",
-  "https://important-account-message.example/read"
+ " hxxps://secure-login.example.test "
+" hxxp://account-verify.example.test "
+" https://login-alert.example.test/session "
+" https://verify-user.example.test/update "
+" https://security-check.example.test/auth "
+" https://mail-access.example.test/confirm "
+" https://account-support.example.test/verification "
+" https://payment-alert.example.test/check "
+" https://identity-confirm.example.test/login "
+" https://session-expired.example.test/recovery "
+" https://secure-account.example.test/validate "
+" https://signin-notice.example.test/authentication "
+" https://user-protection.example.test/confirm-account "
+" https://unusual-activity.example.test/security "
+" https://password-reset.example.test/verify "
+" https://account-warning.example.test/notice "
+" https://online-security.example.test/validation "
+" https://login-center.example.test/secure "
+" https://access-confirm.example.test/user "
+" https://digital-verification.example.test/check "
+" https://support-login.example.test/portal "
+" https://account-lock.example.test/unlock "
+" https://verify-session.example.test/continue "
+" https://secure-notification.example.test/account "
+" https://user-alert.example.test/signin "
+" https://mail-security.example.test/verify "
+" https://payment-verification.example.test/secure "
+" https://profile-update.example.test/confirm "
+" https://authentication-center.example.test/login "
+" https://account-recovery.example.test/identity "
+" https://login.example.test/redirect?source=unknown "
+" https://verify.example.test/check?id=sample "
+" https://security.example.test/session?status=expired "
+" https://account.example.test/confirm?token=DEMO "
+" https://signin.example.test/auth?redirect=demo "
+" https://support.example.test/verify?request=123 "
+" https://update.example.test/profile?status=pending "
+" https://mail.example.test/login?session=demo "
+" https://payment.example.test/validate?ref=sample "
+" https://identity.example.test/check?mode=demo "
+" https://secure.example.test/login?continue=unknown "
+" https://example.test/login/account/verify "
+" https://example.test/security/session/expired "
+" https://example.test/user/profile/confirmation "
+" https://example.test/payment/verification/pending "
+" https://example.test/authentication/required "
+" https://example.test/secure/account/recovery "
+" https://example.test/notification/security/alert "
+" https://example.test/identity/confirmation/check "
+" https://example.test/access/validation/login "
+" https://example.test/password/reset/request "
+" https://login-alert.example.test "
+" https://verify-account.example.test "
+" https://secure-access.example.test "
+" https://account-notice.example.test "
+" https://confirm-identity.example.test "
+" https://security-warning.example.test "
+" https://payment-check.example.test "
+" https://user-validation.example.test "
+" https://mail-confirmation.example.test "
+" https://login-verification.example.test "
+" https://example.test/login.php "
+" https://example.test/verify.php "
+" https://example.test/account.html "
+" https://example.test/security.html "
+" https://example.test/authentication.php "
+" https://example.test/confirm-account.php "
+" https://example.test/session-check.html "
+" https://example.test/update-profile.php "
+" https://example.test/secure-login.html "
+" https://example.test/password-reset.php "
+" https://example.test/login?redirect=https://example.org "
+" https://example.test/verify?next=dashboard "
+" https://example.test/auth?return=homepage "
+" https://example.test/account?check=required "
+" https://example.test/security?alert=1 "
+" https://example.test/session?expired=true "
+" https://example.test/confirm?user=demo "
+" https://example.test/validate?request=sample "
+" https://example.test/recovery?step=1 "
+" https://example.test/notification?type=security "
+" https://sub.login.example.test "
+" https://secure.account.example.test "
+" https://verify.security.example.test "
+" https://mail.login.example.test "
+" https://payment.secure.example.test "
+" https://account.support.example.test "
+" https://identity.verify.example.test "
+" https://session.auth.example.test "
+" https://profile.security.example.test "
+" https://access.portal.example.test "
+" http://example.test/login "
+" http://example.test/account/verify "
+" http://example.test/security-check "
+" http://example.test/payment-alert "
+" http://example.test/session-expired "
+" http://example.test/user-confirmation "
+" http://example.test/identity-check "
+" http://example.test/secure-access "
+" http://example.test/password-update "
+" http://example.test/authentication-required ""
 ];
 
 const RG_STORAGE_KEY = 'CML_RANDOM_WEBSITE_STATE_V1';
